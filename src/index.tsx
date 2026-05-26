@@ -4,7 +4,7 @@ import {
 } from "@decky/ui";
 
 const API_VERSION = 2;
-const manifest = { name: "FHDS Adaptive Triggers" };
+const manifest = { name: "FHDS Trigger Effects" };
 const conn = (window as any).__DECKY_SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED_deckyLoaderAPIInit;
 const api: any = conn?.connect(API_VERSION, manifest.name) || {};
 const call = (api?.call || (() => Promise.reject("no api"))).bind(api);

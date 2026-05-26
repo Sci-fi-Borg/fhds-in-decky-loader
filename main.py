@@ -17,7 +17,7 @@ _paused = False  # global pause flag for trigger writes
 # ---------------------------------------------------------------------------
 
 class Plugin:
-    """FHDS Adaptive Triggers — Decky plugin backend."""
+    """FHDS Trigger Effects — Decky plugin backend."""
 
     # ── state ──────────────────────────────────────────────────────────
     engine_task: asyncio.Task | None = None
