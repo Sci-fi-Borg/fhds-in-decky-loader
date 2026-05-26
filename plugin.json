@@ -1,0 +1,11 @@
+{
+  "name": "FHDS Adaptive Triggers",
+  "author": "tau",
+  "flags": [],
+  "api_version": 1,
+  "publish": {
+    "tags": ["controller", "dualsense", "racing", "forza", "haptics"],
+    "description": "Forza Horizon DualSense adaptive trigger effects on Steam Deck.",
+    "image": "https://opengraph.githubassets.com/1/HamzaYslmn/Forza-Horizon-DualSense-Python"
+  }
+}
